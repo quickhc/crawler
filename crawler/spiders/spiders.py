@@ -15,6 +15,7 @@ class DemoSpider(scrapy.spiders.Spider):
 
     def parse(self, response):
         print("----------------------------------------------------------------------------")
+        print("----------------------------------------------------------------------------")
 
         # xpath匹配规则
         for each in response.xpath("//li"):
